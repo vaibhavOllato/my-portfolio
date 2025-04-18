@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  @keyframes textShadow {
+    0%, 100% {
+      text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    }
+    50% {
+      text-shadow: 0 0 10px #00faff, 0 0 15px #00faff, 0 0 25px #00faff;
+    }
+  }
+
+  .animate-textShadow {
+    animation: textShadow 3s ease-in-out infinite;
+  }
+}
+
