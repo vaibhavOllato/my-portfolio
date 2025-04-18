@@ -71,6 +71,43 @@ const Contact = () => {
               </div>
             </form>
           </div>
+
+          {/* Social Media Icons */}
+<div className="mt-10 flex justify-center space-x-6">
+  <a
+    href="https://facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white hover:text-blue-400 transition-transform transform hover:scale-110"
+  >
+    <i className="fab fa-facebook-f text-2xl"></i>
+  </a>
+  <a
+    href="https://twitter.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white hover:text-cyan-400 transition-transform transform hover:scale-110"
+  >
+    <i className="fab fa-twitter text-2xl"></i>
+  </a>
+  <a
+    href="https://linkedin.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white hover:text-blue-300 transition-transform transform hover:scale-110"
+  >
+    <i className="fab fa-linkedin-in text-2xl"></i>
+  </a>
+  <a
+    href="https://github.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white hover:text-gray-300 transition-transform transform hover:scale-110"
+  >
+    <i className="fab fa-github text-2xl"></i>
+  </a>
+</div>
+
         </div>
       </section>
     );

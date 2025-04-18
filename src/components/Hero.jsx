@@ -1,8 +1,11 @@
 import React from "react";
-import cover from '../assets/gradient-illustration-class-2023-celebration.png'
+import cover from "../assets/gradient-illustration-class-2023-celebration.png";
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-indigo-700 via-purple-800 to-pink-700 overflow-hidden">
+    <section
+      id="home"
+      className="relative h-screen flex items-center justify-center bg-gradient-to-br from-indigo-700 via-purple-800 to-pink-700 overflow-hidden"
+    >
       {/* Overlay glow and gradient */}
       <div className="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
 
@@ -27,13 +30,13 @@ const Hero = () => {
       </div>
 
       {/* Floating Hero Image (Optional - you can use your image or illustration) */}
-      <div className="absolute right-10 bottom-0 hidden md:block z-50">
+      {/* <div className="absolute right-10 bottom-0 hidden md:block z-50">
         <img
           src="https://png.pngtree.com/png-vector/20231108/ourmid/pngtree-programmer-it-developer-png-image_10439723.png"
           alt="Developer Illustration"
           className="w-[320px] drop-shadow-xl animate-float"
         />
-      </div>
+      </div> */}
 
       {/* Curved bottom */}
       <div className="absolute bottom-0 w-full">
