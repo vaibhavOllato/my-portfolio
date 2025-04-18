@@ -12,7 +12,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto text-center px-6 animate-fade-in">
         <h1 className="text-5xl sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 drop-shadow-lg">
-          Hi, I'm Vaibhav T.
+          Hi, I'm Vaibhav Tupe.
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
           🚀 Passionate Full Stack Developer crafting immersive & modern web

@@ -2,17 +2,17 @@ import React from "react";
 import project1 from "../assets/project_1.png";
 
 const projects = [
-    {
-        title: "Portfolio Website",
-        description:
-          "A personal portfolio built with Next.js. It showcases my projects, skills, and experience.",
-        imageUrl:
-          "https://www.k12digest.com/wp-content/uploads/2024/03/1-3-550x330.jpg",
-        link: "#portfolio",
-        github: "https://github.com/your-username/portfolio",
-        live: "https://yourportfolio.vercel.app",
-        techStack: ["Next.js", "Tailwind CSS"],
-      },
+  {
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio built with Next.js. It showcases my projects, skills, and experience.",
+    imageUrl:
+      "https://www.k12digest.com/wp-content/uploads/2024/03/1-3-550x330.jpg",
+    link: "#portfolio",
+    github: "https://github.com/your-username/portfolio",
+    live: "https://yourportfolio.vercel.app",
+    techStack: ["Next.js", "Tailwind CSS", "Moongo db"],
+  },
   {
     title: "E-commerce Web App",
     description:
@@ -23,7 +23,7 @@ const projects = [
     live: "https://ecommerce-demo.vercel.app",
     techStack: ["React", "Node.js", "MongoDB"],
   },
- 
+
   {
     title: "Portfolio Website",
     description:
@@ -66,7 +66,6 @@ const projects = [
     live: "https://yourportfolio.vercel.app",
     techStack: ["Next.js", "Tailwind CSS"],
   },
- 
 
   // other projects...
 ];
@@ -87,11 +86,11 @@ const Projects = () => {
           🚧 Crafted with passion using modern tech.
         </p>
 
-        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="relative bg-white bg-opacity-5 border border-white border-opacity-20 rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.02] hover:shadow-[0_4px_40px_rgba(0,0,0,0.4)] transition duration-300 backdrop-blur-md"
+              className="relative bg-white bg-opacity-5 border border-white border-opacity-20 rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.02] hover:shadow-[0_4px_40px_rgba(0,0,0,0.4)] transition duration-300 backdrop-blur-md cursor-pointer"
             >
               <img
                 src={project.imageUrl}
